@@ -1,0 +1,24 @@
+.playersDiv {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: auto;
+}
+
+.gridTable {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+.gridTable button {
+  /* background-color: aqua; */
+  padding: 10px;
+  cursor: not-allowed;
+}
+.resetBtn {
+  padding: 5px 10px;
+  margin-top: 20px;
+}
